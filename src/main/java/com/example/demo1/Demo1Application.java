@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.CommandLineRunner;
 
 @SpringBootApplication
-public class Demo1Application {
+public class Demo1Application implements CommandLineRunner {
 
         @Override
         public void run(String... args) throws Exception {
