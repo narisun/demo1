@@ -13,7 +13,7 @@ public class Demo1Application implements CommandLineRunner {
                 int i=0;
                 for(;;)
 		{
-                        System.out.println("Application demo running ... count - "+(i++));
+                        System.out.println("Application demo2 running ... count - "+(i++));
                         Thread.sleep(1000);
                 }
         }
